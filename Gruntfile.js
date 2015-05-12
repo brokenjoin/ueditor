@@ -19,7 +19,7 @@ module.exports = function (grunt) {
                     sources[ index ] = basePath + filepath;
                 });
 
-                return sources;
+                return sources;b    
             },
 
             fetchStyles: function () {
@@ -44,7 +44,7 @@ module.exports = function (grunt) {
         disDir = "dist/",
         banner = '/*!\n * ' + packageJson.name + '\n * version: ' + packageJson.version + '\n * build: <%= new Date() %>\n */\n\n';
 
-    //init
+    //init    dffgfdgdfgagfgadfgag
     (function () {
 
         server = typeof server === "string" ? server.toLowerCase() : 'php';
